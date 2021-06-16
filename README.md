@@ -75,9 +75,9 @@ Users review
 ![image](https://user-images.githubusercontent.com/74491117/122270999-8f86f900-cefc-11eb-844d-f537b758004c.png)
 
 
-
-Learned the following things from Youtube and google .
+References: As usual youtube and google.
 
 
 Thanks and regards,
+
 Arya
