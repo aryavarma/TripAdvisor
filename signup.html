@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Your Travel guide and Trip advisor</title>
+<link rel="stylesheet" href="stylelogin.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+</head>
+<body>
+<section class="header">
+<table border="0.2" width="100%" bgcolor="transparent" height="5%">
+    <tr>
+        <th width="16.6%"><a href="index.php"><font color="white" size=3 ><i><center>Home</center></i></font></a></th>
+        <th width="16.6%"><a href="FAQ.html"><font color="white" size=3><i><center>FAQ</center></i></font></a></th>   
+        <th width="16.6%"><a href="pagepolicy.html"><font color="white" size=3><i><center>Privacy Policy</center></i></font></a></th>   
+        <th width="16.6%"><a href="insurancepolicy.html"><font color="white" size=3><i><center>Insurance Policy</center></i></font></a></th>   
+        <th width="16.6%"><a href="followus.html"><font color="white" size=3><i><center>Follow Us</center></i></font></a></th>   
+        <th width="16.6%"><a href="contactus.html"><font color="white" size=3><i><center>Contact Us</center></i></font></a></th>  
+    </tr>
+    </table>
+  
+   <div class="login-page">
+       <div class="form">
+           <form class="register-form">
+               <input type="text" placeholder="user name"/>
+               <input type="password" placeholder="password"/>
+               <input type="text" placeholder="email id"/>
+              <button>Create</button>
+               <p class="message">Already Registered?<a href="#">  Login</a></p>
+           </form>
+           
+           
+           <form class="login-form">
+           <input type="text" placeholder="user name"/>
+           <input type="password" placeholder="password"/>
+               <button>login</button>
+               <p class="message">Not Registered?<a href="#">  Register</a></p>
+               
+           </form>
+       </div>
+    </div>
+    <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+    <script>
+        $('.message a').click(function()
+        {$('form').animate({height:"toggle",opacity:"toggle"},"slow");});
+    </script>                        
+</section>
+</body>
+</html>

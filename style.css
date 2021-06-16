@@ -1,0 +1,282 @@
+*
+{
+	padding:0;
+	margin:0;
+}
+.header
+{
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(Images/Beach.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    text-align: center;
+    color: azure;
+}
+.header img
+{
+    width: :100px;
+    float:left;
+    padding-top: 20px;
+}
+.login-btn
+{
+    width:120px;
+    padding:5px 1px;
+    outline: none !important;
+    border:0.5px solid #fff;
+    border-radius: 40px;
+    background:transparent;
+    color: #fff;
+    float:right;
+}
+.header h1
+{
+    padding-top: 200px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+.header p
+{
+    margin: 18 px 0;
+}
+.input-group
+{
+    width: 80%;
+    max-width: 550px;
+    border-radius: 30px;
+    background: transparent;
+    margin: auto;
+    padding:0.5px;
+    
+}
+.form-control
+{
+    border:0 !important;
+    border-radius: 20px !important;
+    margin: 2px;
+    box-shadow: none !important;
+        
+}
+.input-group-text
+{
+    height: 50px;
+    width: 100px;
+    background-image: linear-gradient(lightblue,darkcyan);
+    border: 0 !important;
+    color: white!important;
+    padding:0 25px !important;
+    margin-left: 200px;
+    border-radius:30px !important;
+    box-shadow: none !important;
+}
+.features
+{
+    padding: 100px 0;
+}
+h1
+{
+    text-align: center;
+     padding-bottom: 30px;
+}
+.feature-img img
+{
+   width:100%; 
+}
+.price
+{
+    width:50px;
+    height: 50px;
+    background:white;
+    color:mediumvioletred;
+    font-weight:600;
+    border-radius:50%;
+    padding:10px;
+    box-shadow: :0 0 10px 1px rgba(37,73,214,0.18);
+    position: absolute;
+    left:2px;
+    bottom: -2px;
+}
+.feature-img
+{
+    position: relative;
+}
+.rating
+{
+    padding: 3px;
+    float: right;
+    background: white;
+    bottom: -1px;
+    right: 0;
+    position: absolute;
+}
+.features .fa
+{
+    font-size: 15px;
+    color: darkgreen;
+}
+.feature-details
+{
+    padding: 30px;
+    text-align: justify;
+}
+.feature-details h4
+{
+    font-weight: 600;
+    margin-top: 2px;
+}
+.feature-details .fa
+{
+    margin-right: 5px;
+    
+}
+.feature-box
+{
+    box-shadow: 0 0 10px 1px  rgba(37,73,214,0.18);
+    margin-bottom: 30px;
+}
+.gallery
+{
+    padding: 100px 0;
+    background:floralwhite;
+    
+}
+.gallery-box img
+{
+    width: 80%;
+    border-radius: 10px;
+    cursor:pointer;
+    transition:1s;
+}
+.gallery-box img:hover
+{
+    transform:scale(1.1);
+}
+.gallery-box h4
+{
+    padding:7px;
+    width:200px;
+    text-align: center;
+    font-size:15px;
+    color: darkgreen;
+    font-weight: 600;
+}
+.gallery-box
+{
+    '''position: relative;
+    margin-bottom: 30px;
+}
+.banner
+{
+    height: 80%;
+    background-image: url(Images/beach.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 10%
+}
+.banner-highlights
+{
+    padding: 70px 0;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color:aliceblue;
+}
+.booking-btn
+{
+    width:120px;
+    padding:5px 0;
+    outline: none !important;
+    border:0.5px solid #fff;
+    border-radius: 40px;
+    background:transparent;
+    color: #fff;
+    margin-top: 20px;
+}
+.users-feedback
+{
+    padding: 60px 0;
+}
+.user-review
+{
+    text-align: center;
+    box-shadow:0 0 10px 0 rgba(0,0,100,0.2);
+    padding-bottom:50px;
+}
+.user-review p
+{
+    padding: 50px 10px 10px 10px;
+    
+}
+.users-feedback img
+{
+    width: 60px;
+    height:60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+}
+.user-review p::before
+{
+    content: '\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color:darkcyan;
+    font-family: sans-serif;
+    left: 44%;
+    top: -20px;
+}
+.footer
+{
+    padding: 110px 20px;
+    background-image: linear-gradient(#2d557d,#9610fb);
+    color:white;   
+}
+.footer-logo
+{
+   width: 30px;
+    margin-top:20px;
+    margin-bottom: 15px;
+}
+.footer h4
+{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.footer p
+{
+    font-size: :10px;
+    text-align:justify;
+    padding-right: 35px;
+}
+.footer .row .fa
+{
+    padding-right: 5px;
+    font-size: 15px;
+}
+.footer hr
+{
+    margin-top: 10px;
+    background-color: antiquewhite;
+}
+.footer .copyright
+{
+    text-align: center;
+}
+.custom-select
+{
+    color:darkgreen!important;
+    font-size: 15px!important;
+    border: 0px solid grey!important;
+    box-shadow: none!important;
+    border-radius: 50px!important;
+    background:transparent!important;
+    margin-top:-30px;
+}
+.custom-select option
+{
+    color:coral;
+}
