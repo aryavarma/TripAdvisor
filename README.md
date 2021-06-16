@@ -1,5 +1,5 @@
 # TripAdvisor
-
+Note: Only few files are uploaded
 Short Description :
 
 - Designed TripAdvisor with an intention to learn HTML, CSS, and javascript better. 
@@ -76,7 +76,6 @@ Users review
 
 
 References: As usual youtube and google.
-
 
 Thanks and regards,
 
