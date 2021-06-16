@@ -1,5 +1,5 @@
 # TripAdvisor
-Created using HTML,CSS, PHP, JavaScript. A very basic project, focused on designing aspect. 
+
 Short Description :
 
 - Designed TripAdvisor with an intention to learn HTML, CSS, and javascript better. 
